@@ -1,0 +1,21 @@
+{
+  "name": "foto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "bankai client.js -p 8080 --open",
+    "build": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "choo": "^4.1.0",
+    "pico-lambda": "^1.0.1"
+  },
+  "devDependencies": {
+    "bankai": "^5.4.0"
+  }
+}
